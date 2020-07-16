@@ -27,6 +27,11 @@ class SKActionView: UIView {
     convenience init(frame: CGRect, browser: SKPhotoBrowser) {
         self.init(frame: frame)
         self.browser = browser
+        
+        layer.shadowColor = UIColor.black.cgColor
+        layer.shadowOpacity = 1
+        layer.shadowOffset = .zero
+        layer.shadowRadius = 10
 
         configureCloseButton()
         configureDeleteButton()
