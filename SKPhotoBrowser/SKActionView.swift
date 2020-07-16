@@ -30,8 +30,8 @@ class SKActionView: UIView {
         
         layer.shadowColor = UIColor.black.cgColor
         layer.shadowOpacity = 1
-        layer.shadowOffset = CGSize(width: 0, height: -1)
-        layer.shadowRadius = 1
+        layer.shadowOffset = CGSize(width: 1, height: 1)
+        layer.shadowRadius = 5
 
         configureCloseButton()
         configureDeleteButton()

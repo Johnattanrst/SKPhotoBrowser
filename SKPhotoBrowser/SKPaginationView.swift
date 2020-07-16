@@ -95,10 +95,6 @@ private extension SKPaginationView {
         label.textAlignment = .center
         label.backgroundColor = .clear
         label.shadowColor = SKToolbarOptions.textShadowColor
-        
-        label.layer.shadowOpacity = 1
-        label.layer.shadowRadius = 1
-        
         label.shadowOffset = CGSize(width: 0.0, height: 1.0)
         label.font = SKToolbarOptions.font
         label.textColor = SKToolbarOptions.textColor
